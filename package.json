@@ -10,7 +10,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-on-rails": "file:.yalc/react-on-rails"
+    "react-on-rails": "12.0.0-beta.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"

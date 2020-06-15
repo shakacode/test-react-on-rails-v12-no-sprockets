@@ -6140,8 +6140,10 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-"react-on-rails@file:.yalc/react-on-rails":
-  version "12.0.0-1b545472"
+react-on-rails@12.0.0-beta.1:
+  version "12.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-12.0.0-beta.1.tgz#fa136073df03acf3658c55ccf81ced1268e56533"
+  integrity sha512-lSJ/gwzXPphPPgbiH4xix0UUXLVcsrPg9B+y4ZkDJyhaQ/noMd9I8ohPgw7Lp/vsqt5/t4nSY5dee31yQ6NOTQ==
   dependencies:
     "@babel/runtime-corejs3" "^7.9.6"
     concurrently "^5.1.0"
