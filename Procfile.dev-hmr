@@ -1,3 +1,5 @@
+# Procfile for development using HMR
+
 web: rails s -p 3000
 
 # Note, hot and live reloading don't work with the default generator setup on
@@ -9,7 +11,6 @@ web: rails s -p 3000
 #    SSR with HMR and React hot loading
 # Otherwise, you will have an error. If you want HMR and Server Rendering, see
 # the example in the https://github.com/shakacode/react-webpack-rails-tutorial
-web: rails s -p 3000
 
 # Run the hot reload server for client development
 webpack-dev-server: bin/webpack-dev-server
