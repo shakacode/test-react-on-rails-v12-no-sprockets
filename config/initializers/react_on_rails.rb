@@ -4,10 +4,6 @@
 # for many more options.
 
 ReactOnRails.configure do |config|
-  # This configures the script to run to build the production assets by webpack. Set this to nil
-  # if you don't want react_on_rails building this file for you.
-  config.build_production_command = "RAILS_ENV=production NODE_ENV=production bin/webpack"
-
   ################################################################################
   ################################################################################
   # TEST CONFIGURATION OPTIONS
@@ -22,7 +18,10 @@ ReactOnRails.configure do |config|
   # with rspec then this controls what yarn command is run
   # to automatically refresh your webpack assets on every test run.
   #
-  config.build_test_command = "RAILS_ENV=test bin/webpack"
+  # This is optional. The alternative is to set "test.compile: true" in your config/wepbacker.yml.
+  # And be sure to have a standard config/webpack/test.js file to
+  # so the standard rails/webpacker enhancements to the assets:precompile
+  # config.build_test_command = "RAILS_ENV=test bin/webpack"
 
   ################################################################################
   ################################################################################
